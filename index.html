@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/xx.js" crossorigin="anonymous"></script>
+    <title>EXAMEN</title>
+</head>
+
+<body>
+    <div class="cajota">
+
+        <div class="izquierda">
+
+            <div class="caja">
+
+                <div class="ciclo">
+
+                    <h2>ALMACEN</h2>
+                    <center><select name="Seleccionar Almacen" id="ciclo"></center>
+                        <option value="0" selected>Seleccione Almacen</option>
+                        <option value="1">Ate</option>
+                        <option value="2">La Molina</option>
+                        <option value="3">Chosica</option>
+                    </select>
+
+                </div>
+
+                <div class="carrera">                    
+                    <H2>CATEGORÍA</H2>
+                    <center><select name="Escuela profesional" id="ep"></center>
+                        <option value="0">Seleccione categoria</option>
+                        <option value="1">Lácteos</option>
+                        <option value="2">Lípidos</option>
+                        <option value="3">Detergentes</option>
+                    </select>
+
+                </div>
+
+                <h2>&nbsp&nbsp  PRODUCTO</h2>
+                <input type="text" id="nombre">
+
+                <h2>&nbsp&nbsp  PRECIO</h2>
+                <input type="text" id="nombre">
+                
+                <h2>&nbsp&nbsp  CANTIDAD</h2>
+                <input type="text" id="nombre">
+
+                <center><button id="guardar" onclick="test()">Guardar</button></center>
+
+            </div>
+
+        </div>
+        
+        <div class="derecha">
+            
+            
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>ALMACEN</th>
+                        <th>CATEGORIA</th>
+                        <th>PRODUCTO</th>
+                        <th>PRECIO</th>
+                        <th>CANTIDAD</th>
+                        <th>ACCION</th>
+                    </tr>
+                </thead>
+                <tbody id="tbd"></tbody>
+            </table>
+
+        </div>
+
+    </div>
+</body>
+<script src="js/xx.js"></script>
+
+</html>
